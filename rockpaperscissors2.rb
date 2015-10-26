@@ -1,4 +1,4 @@
-puts "Rock, paper or scissor"
+puts 'Rock, paper or scissor'
 w = 0 and l =0 and t =0 and j=0
 loop{
 choice = ["paper" , "rock" , "scissor" ]
