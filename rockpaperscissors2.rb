@@ -1,4 +1,4 @@
-puts 'Rock, paper or scissor'
+puts "Rock, paper or scissor"
 w = 0 and l =0 and t =0 and j=0
 loop{
 choice = ["paper" , "rock" , "scissor" ]
@@ -7,7 +7,7 @@ i=0
 if j ==10
 puts "wins : #{w}\nlosses : #{l}\ndraw:    #{t}"
       if w > l
-          puts "You won the game"
+          puts 'You won the game'
       elsif w<l
           puts "You lost!"
       else
